@@ -1,12 +1,10 @@
 const SummaryBot = require('summarybot')
 const summarizer = new SummaryBot()
 
-document.getElementById('output').innerHTML=function Sum(){
-
+function Sum(){
   const text = document.getElementById('input').value ;
+  const output= SummaryBot(text,5) 
+    return output;
+}
 
-  const output= summarizer.run(text, 5, false) ;
-
-  return output;
-
-};
+document.getElementById('output').innerHTML = Sum()

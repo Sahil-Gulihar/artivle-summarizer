@@ -9,6 +9,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "summary-bot": "^1.0.1",
     "summarybot": "^0.0.7"
   }
 }
